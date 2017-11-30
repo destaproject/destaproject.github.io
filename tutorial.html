@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tutorial WD Hijab</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 30%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+  right: 0;
+  background-color: #FFEBCD;
+  overflow: hidden;
+  width: 0;
+  height: 30%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  width: 30%;
+  left: 0;
+}
+
+.text {
+  white-space: nowrap; 
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+footer{
+        padding: 1em;
+        color: #BDB76B;
+        background-color: #232323; 
+        clear: left;
+        text-align: center;
+    }
+
+</style>
+</head>
+<body>
+	    <!--NAME OF WEBSITE-->
+     <br/>
+        <h1 align="center"><font face="Krinkes Decor PERSONAL USE" color="#000000">WD Hijab</font></h1>
+    <!--END NAME-->
+
+<!--___________________________________
+    ****DROPDOWN MENU****
+_________________________________________-->
+
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="testi.html">Testimoni</a>
+            <div class="dropdown">
+                <button class="dropbtn">Galery 
+                  <i class="fa fa-caret-down"></i>              <!--Code diambil dari w3school (https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp)-->
+                </button>
+                <div class="dropdown-content">
+                  <a href="sarung.html">Sarung</a>
+                  <a href="segiempat.html">Segiempat</a>
+                  <a href="pasmina.html">Pasmina</a>
+                </div>
+            </div> 
+            <a href="tutorial.html">Tutorial</a>
+            <a href="login.html">Login</a>
+        </div>
+
+<!--_______________________________
+            ****END MENU****
+____________________________________-->
+
+
+    <!--VIDEO TUTORIAL-->
+
+    <center>
+		<video width="640" height="480" autoplay style="margin-top: 50px">
+	 	 <source src="vid/Hijab Tutorial Pashmina Instan Zenia Lava Original by Hijab Wanita Cantik.mp4" type="video/mp4">
+		<!--Code diambil dari W3School (https://www.w3schools.com/html/html5_video.asp)-->
+	 	 Your browser does not support the video tag.
+		</video>
+	
+<!--_________________________
+        ****FOOTER****
+_____________________________-->
+
+         <footer style="margin-top: 40px;">
+         <div class="footer" style=" margin-top: 40px; width: 100%; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+            <h2 >Pages</h2>
+                <a href="#" style="text-decoration: none; color: white;"><p>Home</p></a>
+                <a href="#" style="text-decoration: none; color: white"><p>Testimoni</p></a>
+                <a href="#" style="text-decoration: none; color: white"><p>Galery</p></a>
+                <a href="#" style="text-decoration: none; color: white"><p>How To Order</p></a>
+
+            <p class="social">
+                <a href="#" class="facebook external" style="margin-right: 30px; color: white"><i class="fa fa-facebook"></i></a>
+                <a href="#" class="twitter external" style="margin-right: 30px; color: white"><i class="fa fa-twitter"></i></a>
+                <a href="#" class="instagram external" style="margin-right: 30px; color: white"><i class="fa fa-instagram"></i></a>
+                <a href="#" class="gplus external" style="margin-right: 30px; color: white"><i class="fa fa-google-plus"></i></a>
+                <a href="#" class="email external" style="margin-right: 30px; color: white"><i class="fa fa-envelope"></i></a>
+
+                <!--ICON DIAMBIL DARI SB-ADMIN-2-->
+            </p>           
+        </div>
+        <p style="margin-top: 30px">Copyright &copy; WD Hijab</p>    
+         </footer>
+        </center>
+<!--____________________________
+        ****END FOOTER****
+_________________________________-->
+
+	</center>
+
+	<!--END VIDEO-->
+
+</body>
+</html>
